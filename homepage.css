@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+}
+
+#wrapper {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#logo {
+    height: 90%;
+}
+
+#logo > img {
+    height: 100%;
+    width: 100%;
+}
+
+#title {
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#desc {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 75px));
+}
+
+#arrow > svg {
+    animation:arrowAnim 1s ease infinite;
+}
+
+#wrap {
+    height: 100vh;
+    background-color: black;
+}
+
+@keyframes arrowAnim {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
