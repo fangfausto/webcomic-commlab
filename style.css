@@ -49,6 +49,17 @@ body, html {
     background-color: black;
 }
 
+.story-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story-container img{
+    width: 50vw;
+}
+
 @keyframes arrowAnim {
     0%, 100% {
         transform: translateY(0);
