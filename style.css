@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 body,
 html {
     margin: 0;
     background-color: black;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Cinzel', cursive;
     /* Choose a subtle but creepy font */
 }
 
@@ -94,7 +94,7 @@ html {
     cursor: pointer;
     font-weight: 600;
     transition: background-color 0.3s, color 0.3s;
-    font-family: 'Cinzel Decorative',cursive;
+    font-family: 'Cinzel',cursive;
     margin: 20px;
 } 
   .options button:hover {
@@ -116,4 +116,5 @@ html {
   }
   #imgGun:hover{
     filter: blur(1px);
+    cursor:pointer;
   }

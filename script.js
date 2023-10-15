@@ -15,25 +15,25 @@ let looper = false;
 // Define the story content
 const storyContent = [
     {
-        text: '"You wake up confused with your phone ringing. "',
+        text: ' “Hmm… I think I have seen this exact news somewhere before… Was it when I was driving, in the living room?... Forget about it, I should just go watch a movie. I’m thinking too much.”',
         options: ["Pick up your phone"],
         id:"start",
         image: "media/panel1.gif"
     },
     {
-        text: '"You receive a text message. It`s the girl you have been talking to and there is a new movie you want to watch. This is the perfect chance to ask her out."',
+        text: '“Should I go watch the movies alone? Or should I text my girlfriend to go watch it together?”',
         options: ["Invite her to a movie date", "Go to the cinema alone"],
         id:"phoneText",
         image: "img/panel2_merged.png"
     },  
     {
-        text: "You texted the girl. She agrees to go on the date.",
+        text: '"What movie should I choose? Doesn`t matter, they all look boring."',
         options: ["Watch the movie with her"],
         id:"cinemaGirl",
         image: "img/panel3_girlfriend.png"
     },  
     {
-        text: "You went alone to the cinema.",
+        text: '"What movie should I choose? Doesn`t matter, they all look boring."',
         options: ["Watch the movie"],
         id:"cinemaBoy",
         image: "img/panel3_alone.png"
@@ -55,24 +55,24 @@ const storyContent = [
         bullet: "media/panel4_bullet.gif"
     },
     {
-        text: "The girl dies",
+        text: 'You dodged the bullet. However,  that bullet hits your girlfriend instead. She stops breathing...',
         options: ["??????"],
         id:"dodge",
         image: "img/badEnding1.jpg",
         ending: true
     },
     {
-        text: "The guy dies",
+        text: "You feel a cold bullet pierce your chest. Your consciouness is fading...",
         options: ["??????"],
         id:"take",
         image: "img/badEnding2.jpg",
         ending: true
     },
     {
-        text: "END",
+        text: "You tackle the robber, miracously taking down the firegun. You feel relieved, as if you had broken off a curse...",
         options:[],
         id:"trEnding",
-        image: "",
+        image: "img/true_ending.png",
     }
     
 ];
