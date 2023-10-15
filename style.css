@@ -1,6 +1,11 @@
-body, html {
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+
+body,
+html {
     margin: 0;
     background-color: black;
+    font-family: 'Cinzel Decorative', cursive;
+    /* Choose a subtle but creepy font */
 }
 
 #wrapper {
@@ -18,7 +23,7 @@ body, html {
     height: 90%;
 }
 
-#logo > img {
+#logo>img {
     height: 100%;
     width: 100%;
 }
@@ -41,16 +46,16 @@ body, html {
     transform: translate(-50%, calc(-50% + 75px));
 }
 
-#arrow > svg {
-    animation:arrowAnim 1s ease infinite;
+#arrow>svg {
+    animation: arrowAnim 1s ease infinite;
 }
 
 #wrap {
-    height: 100vh;
+    height: 80vh;
     background-color: black;
 }
 
-.story-container{
+.story-container {
     background-color: black;
     color: white;
     display: flex;
@@ -58,15 +63,57 @@ body, html {
     align-items: center;
     opacity: 0;
 }
-.story-container img{
+
+.story-container img {
     width: 50vw;
 }
 
 @keyframes arrowAnim {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(10px);
     }
 }
+
+.options button {
+    background-color: #1c1c1c;
+    /* Dark background color */
+    color: white;
+    border: 2px solid #ff6347;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Cinzel Decorative',cursive;
+    margin: 20px;
+} 
+  .options button:hover {
+    background-color: #ff6347; /* Red background color on hover */
+    color: #1c1c1c; /* Dark text color on hover */
+  }
+
+  #loopText{
+    display: none;
+  }
+  #imgSpecial{
+    display: flex;
+    justify-content: center;
+  }
+  #imgSpecial img{
+    border: 6px solid #ffffff;
+    margin: 0px 10px;
+    
+  }
+  #imgGun:hover{
+    filter: blur(1px);
+  }
