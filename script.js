@@ -69,8 +69,8 @@ const storyContent = [
         ending: true
     },
     {
-        text: "You tackle the robber, miracously taking down the firegun. You feel relieved, as if you had broken off a curse...",
-        options:[],
+        text: "You tackle the robber, miracously taking down the firegun. You start to feel relieved...",
+        options:["Go back to the start"],
         id:"trEnding",
         image: "img/true_ending.png",
     }
@@ -110,6 +110,10 @@ const storyOptions = [
     {
         choose: "??????",
         result: "start"
+    },
+    {
+        choose:"Go back to the start",
+        result: "start"
     }
 ]
 
@@ -126,6 +130,8 @@ function updateStory(choice) {
     else{
         looper = false;
         document.getElementById("loopText").style.display = "none";
+        document.getElementById("loopEnd").style.display = "none";
+        document.getElementById("loopEndText").style.display = "none";
     }
     
 
@@ -169,6 +175,8 @@ function updateStoryView() {
 
 function endLoop(){
     storyState = 8;
+    document.getElementById("loopEnd").style.display = "block";
+    document.getElementById("loopEndText").style.display = "block";
     updateStoryView();
 }
 

@@ -105,6 +105,12 @@ html {
   #loopText{
     display: none;
   }
+  #loopEnd{
+    display: none;
+  }
+  #loopEndText{
+    display: none;
+  }
   #imgSpecial{
     display: flex;
     justify-content: center;
@@ -115,6 +121,6 @@ html {
     
   }
   #imgGun:hover{
-    filter: blur(1px);
+    filter: brightness(150%);
     cursor:pointer;
   }
