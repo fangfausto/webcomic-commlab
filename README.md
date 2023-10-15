@@ -8,17 +8,13 @@ The main character (referred as ‘YOU’ or whoever is watching the web comic) 
 
 ## Problems
 ### Merging gifs with pngs and or gifs
-
+Since plots have more than one panels, we had tto combine two image/gifs. The problem was thatt gifs was a series of different images, while an image is just one. Also, when combining two differnt gifs, the gifs had different number of frames, which was  harder to figure ou how to put them in a single file.
 ### 
-
-
 ### 
-
-
-
 
 ## Solutions
-### 
+### Merging gifs with pngs and or gifs
+Via websearching, we noticed that the timeline function in adobe photoshop ables us to photoshop gifs. It allowed us put the images on each frame of tthe gif, so that as a result the gif would move but the image would just stay. For adding gifs on gifs, because the number of frames are different, we had to approach differently. From plot 4, the serial killer's eyes shacking scene is consisted of 3 frames, but the bullet moving scene is 72 frames. Fortunately we could fit the eyes shacking frames exactly 24 times while he bullet scene loops one time. So what we did was to loop the eye scene 24 times alongside the bullet scene (which run one loop). As a result, we could get a gif file with two gifs moving.
 ### 
 ### 
 
