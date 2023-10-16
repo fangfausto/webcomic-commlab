@@ -65,6 +65,7 @@ html {
 
 .story-container img {
     width: 50vw;
+    border: 6px solid #ffffff;
 }
 
 @keyframes arrowAnim {

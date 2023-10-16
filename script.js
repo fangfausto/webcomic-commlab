@@ -40,7 +40,7 @@ const storyContent = [
     },
     {
         text: "After watching the movie together, you both decide to come out of the cinema. Outside, you meet a robber that threatens to shoot.",
-        options: ["Duck and dodge the bullet","Stay still"],
+        options: ["Duck and dodge the bullet","Protect the girl"],
         id:"shooting1",
         image: "media/panel4.gif",
         bullet: "media/panel4_bullet.gif",
@@ -48,7 +48,7 @@ const storyContent = [
     },
     {
         text: "After watching the movie by yourself, you decide to come out of the cinema. Outside, you meet a robber that threatens to shoot.",
-        options: ["Dodge the bullet","Protect the girl"],
+        options: ["Dodge the bullet","Stay still"],
         id:"shooting2",
         image: "media/panel4.gif",
         gun: "img/Panel4_gun.png",
@@ -100,8 +100,16 @@ const storyOptions = [
         result: "shooting2"
     },
     {
+        choose: "Dodge the bullet",
+        result: "dodge"
+    },
+    {
         choose: "Duck and dodge the bullet",
         result: "dodge"
+    },
+    {
+        choose: "Protect the girl",
+        result: "take"
     },
     {
         choose: "Stay still",
