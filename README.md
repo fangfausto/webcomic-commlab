@@ -8,13 +8,21 @@ The idea of making a comic which loops came from trying to make a comic that can
 ## Story
 The main character (referred as ‘YOU’ or whoever is watching the web comic) is watching news in his living room. He sees that there is a serial killer roaming the city, and thinks that he has watched the news somewhere, but cannot think when and where. He decides to go watch a movie to stop thinking. Here he decides to whether take his girlfriend to the theater or not. (which does not affect the ending). When both/ or only the main character arrives at the movie, he hears a gunshot and turns around to see what happened. It was the serial killer he saw on the news a few moments ago. The serial killer shoots at the main character because the main character did not behave as the serial killer wanted him to. Here, he has a choice to either dodge the bullet or take it which again will not affect the ending of the story. However this time, the main character has a third choice of action. Taking away his gun (for the users the gun image will shine). If the main character manages to take the gun, the serial killer is arrested and will have a happy ending. Otherwise, the he will be sent back to the first plot, at his living room, watching the same news. 
 ![bullet]
+
+## Team members 
+
+- Kyrie Park -> Design
+- Jiho Choi -> Design
+- Fausto Fang -> Website coding
+- Kashyapa Jayasekera -> Website coding
 # Process
 ## Problems
 ### Merging gifs with pngs and or gifs
 Since plots have more than one panels, we had to combine two image/gifs. The problem was that gifs was a series of different images, while an image is just one. Also, when combining two different gifs, the gifs had different number of frames, which was harder to figure out how to put them in a single file.
 
 ![merge]
-### 
+
+
 
 
 ### State management:
